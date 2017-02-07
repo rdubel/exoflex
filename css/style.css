@@ -1,19 +1,29 @@
-ul {
-    list-style: none;
+div {
+    height: 800px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    flex-flow: row, nowrap;
+    align-items: stretch;
 }
 
-.first {
-    order: -1;
+header {
+    border: 1px solid green;
+    width: 95%;
+    margin: 0 auto 3em auto;
 }
 
-.secondlast {
-    order: 1
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
 }
 
-.last {
-    order: 2
+main {
+    border: 1px solid blue;
+    width: 60%;
+}
+
+aside {
+    border: 1px solid red;
+    width: 30%;
 }
