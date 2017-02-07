@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row, nowrap;
+}
+
+.first {
+    order: -1;
+}
+
+.secondlast {
+    order: 1
+}
+
+.last {
+    order: 2
+}
